@@ -9,6 +9,10 @@ A quick test repo to practice async requests and advanced react features
 - npm run dev
 - the app will be available on localhost:3000
 
+# Environment variables
+
+In order to request data from the API, you will need to create your own .env file in the root of the project. There is an example .env file which shows the format. You will also have to generate your own API Key, which you can do here http://www.omdbapi.com/apikey.aspx
+
 # What is this?
 
 A quick app that fetches data from the ombd api. Built using Next JS as a starter. Data is passed using the React context api. At the moment there's not much to look at from a UI perspective, just a search field and submit button. Entering a search term and submitting the form will send a request to the omdb API via an internal endpoint (api/getFilms) which will return some data. If valid, the name of the returned film will be displayed.
