@@ -1,4 +1,4 @@
-# imbd-clone
+# imdb-clone
 A quick test repo to practice async requests and advanced react features
 
 # Get Started
